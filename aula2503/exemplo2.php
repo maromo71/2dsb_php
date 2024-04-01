@@ -7,7 +7,7 @@
         case "M":
         case "m":
             $salario *= 1.10;
-            
+            break;
         case "F":
         case "f":
             $salario *= 1.11;
