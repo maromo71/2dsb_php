@@ -30,7 +30,6 @@ function mostrarTabuleiro($p1, $p2){
             }else{
                 printf("[%3d] ", $tabuleiro[$i][$j]);
             }
-           
         }
         echo "\n";
     }
