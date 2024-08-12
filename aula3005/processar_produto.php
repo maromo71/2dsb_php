@@ -18,6 +18,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         'email' => $_POST['supplier-email'],
         'available' => isset($_POST['product-available']) ? true : false
     ];
+    echo $product['image'];
+    exit(0);
 
     // Armazena o produto na sessão
     $_SESSION['products'][] = $product;
