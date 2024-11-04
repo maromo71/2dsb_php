@@ -14,7 +14,7 @@ class UserController
     public function logout()
     {
         session_start();
-        $_SESSION["user"] = null;
+        $_SESSION['user'] = null;
         session_destroy();
     }
 }
